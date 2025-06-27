@@ -1,6 +1,6 @@
-# Chocofi Keyboard Firmware
+# Chocofi Keyboard Firmware (without custom artwork)
 
-This is the firmware source for the **Chocofi** keyboard, a low-profile split ergonomic keyboard powered by an RP2040 microcontroller. It features **analog pointing stick support** and **Nice!View OLED** for status display (without custom artwork).
+This is the firmware source for the **Chocofi** keyboard, a low-profile split ergonomic keyboard powered by an nice!nano microcontroller. It features **analog pointing stick support** and **Nice!View OLED** for status display (without custom artwork).
 
 ---
 
