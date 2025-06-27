@@ -13,6 +13,8 @@ This is the firmware source for both the **Corne** (6x3) and **Chocofi** (5x3) k
 - ✅ Mouse movement supported
 
 
+![Screenshot](zero-chocofi.jpg)
+
 ---
 
 ## Local build commands:
