@@ -9,7 +9,6 @@ This is the firmware source for the **Chocofi** keyboard, a low-profile split er
 - ✅ Split ergonomic layout (chocofi-style)
 - ✅ nRF52840 SoC (compatible with ZMK)
 - ✅ Nice!View OLED support (no custom art)
-- ✅ Audio feedback with startup tones
 - ✅ ZMK compatible
 
 ---
