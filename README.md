@@ -40,7 +40,7 @@ In the latest version of ZMK you can load custom 1-bit art to display on the rig
 - First, get the latest ZMK code using git pull
 - Find a piece of 1-bit art to use or make your own and scale to a resolution of 68x140.
 - Rotate the art 90 degrees clockwise and save as a monochrome bitmap.
-- Load the bitmap into the online [LVGL Image Converter](https://lvgl.io/tools/imageconverter) using color format of CF_INDEXED_1BIT and outputting as a C array.
+- Load the bitmap into the online [LVGL Image Converter](https://lvgl.io/tools/imageconverter) using color format of ```CF_INDEXED_1BIT``` and outputting as a C array.
 - Open the resulting C file and copy everything AFTER the ```#ifndef LV_ATTRIBUTE_MEM_ALIGN``` block.
 - Paste code you copied into the bottom of ```app\boards\shields\nice_view\widgets\art.c```
 - Find ```<file name>_map[] = {``` and replace the two color index lines with the following copied from the "mountain" or "balloon" images where ```"<file name>"``` is the name you put into the Image Converter:
